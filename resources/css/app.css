@@ -9,3 +9,19 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.text-accessible p{
+    font-size: 1.8rem !important;
+    line-height: 1.8 !important;
+}
+
+.text-accessible h2{
+    font-size: 2.1rem !important;
+    line-height: 1.8 !important;
+}
+
+.text-accessible h1 {
+    font-size: 3.5rem !important;
+}
